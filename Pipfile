@@ -4,7 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==1.11.20"
+django = "1.11.20"
+Pipfile = "*"
+django-user-sessions = "*"
 
 [dev-packages]
 
